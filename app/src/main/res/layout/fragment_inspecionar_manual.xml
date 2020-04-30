@@ -1,0 +1,59 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dip"
+        android:layout_weight="1"
+        android:gravity="center"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="sans-serif"
+            android:text="Digite o código abaixo do QRCode"
+            android:textSize="16sp"
+            android:textStyle="bold" />
+
+        <EditText
+            android:id="@+id/edClienteCode"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="50dp"
+            android:layout_marginRight="50dp"
+            android:layout_marginTop="20dp"
+            android:background="@drawable/field_bordered"
+            android:drawableLeft="@drawable/ic_qrcode"
+            android:drawablePadding="20dp"
+            android:hint=""
+            android:inputType="numberSigned"
+            android:maxLength="6"
+            android:textSize="25sp" />
+
+    </LinearLayout>
+
+    <!--<LinearLayout-->
+    <!--android:layout_width="match_parent"-->
+    <!--android:layout_height="wrap_content"-->
+    <!--android:gravity="center|bottom"-->
+    <!--android:padding="0dip"-->
+    <!--android:layout_margin="0dip"-->
+    <!--android:orientation="vertical">-->
+
+    <!--<Button-->
+    <!--android:id="@+id/btnConfirmManualQrCode"-->
+    <!--android:layout_width="match_parent"-->
+    <!--android:layout_height="wrap_content"-->
+    <!--android:layout_margin="0dp"-->
+    <!--android:background="@drawable/ripple_effect"-->
+    <!--android:padding="0dp"-->
+    <!--android:text="@string/action_confirm"-->
+    <!--android:textColor="@color/white"-->
+    <!--android:textStyle="bold" />-->
+
+    <!--</LinearLayout>-->
+
+</LinearLayout>

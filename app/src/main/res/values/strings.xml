@@ -1,0 +1,40 @@
+<resources>
+    <string name="app_name">Security</string>
+
+    <string name="prompt_email">Email</string>
+    <string name="prompt_password">Senha</string>
+    <string name="action_sign_in">Entrar</string>
+    <string name="action_sign_in_short">Sign in</string>
+    <string name="error_invalid_username">Usuário inválido</string>
+    <string name="error_invalid_password">A senha deve conter no mínimo 3 caracteres</string>
+    <string name="error_incorrect_password">Usuário/Senha incorreto(s)</string>
+    <string name="error_field_required">Preencha este campo</string>
+    <string name="toolbar_auth_title">Autenticação</string>
+    <string name="prompt_username">Usuário</string>
+
+    <string name="title_activity_splash_screen">Security</string>
+    <string name="dummy_button">Dummy Button</string>
+    <string name="dummy_content">DUMMY\nCONTENT</string>
+    <string name="action_forgot_passwd">Esqueceu a senha?</string>
+    <string name="action_confirm">Confirmar</string>
+    <string name="action_cancel">Cancelar</string>
+    <string name="action_continue">Continuar</string>
+    <string name="action_change">Alterar</string>
+
+    <!-- Http error messages -->
+    <string name="_401">Usuário ou senha incorreto(s)</string>
+    <string name="action_save">Salvar</string>
+    <string name="title_activity_dashboard">Nome do usuário</string>
+    <string name="title_home">Home</string>
+    <string name="title_dashboard">Dashboard</string>
+    <string name="title_notifications">Notifications</string>
+    <string name="ic_inspection">Inspeção</string>
+    <string name="ic_clientes">Clientes</string>
+    <string name="ic_history">Histórico</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="action_conclusion">Concluir</string>
+    <string name="action_filter">Filtrar</string>
+    <string name="title_activity_maps">Map</string>
+</resources>

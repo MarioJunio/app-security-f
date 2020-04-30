@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/nav_quit"
+        android:enabled="true"
+        android:icon="@drawable/ic_quit"
+        android:iconTint="@color/silver"
+        android:iconTintMode="src_in"
+        android:title="Sair"
+        app:showAsAction="always" />
+
+    <item
+        android:id="@+id/nav_photo"
+        android:enabled="true"
+        android:icon="@drawable/ic_camera"
+        android:iconTint="@color/silver"
+        android:iconTintMode="src_in"
+        android:title="Foto"
+        app:showAsAction="always" />
+
+    <item
+        android:id="@+id/nav_confirm"
+        android:enabled="true"
+        android:icon="@drawable/ic_confirm"
+        android:iconTint="@color/silver"
+        android:iconTintMode="src_in"
+        android:title="Confirmar"
+        app:showAsAction="always" />
+
+</menu>

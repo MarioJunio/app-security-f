@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/filtrar"
+        android:enabled="true"
+        android:icon="@drawable/ic_filter"
+        android:iconTint="@color/black"
+        android:iconTintMode="src_in"
+        android:title="Dashboard"
+        app:showAsAction="always" />
+
+    <item
+        android:id="@+id/nav_dashboard"
+        android:enabled="true"
+        android:icon="@drawable/ic_dashboard"
+        android:iconTint="@color/silver"
+        android:iconTintMode="src_in"
+        android:title="Dashboard"
+        app:showAsAction="always" />
+
+</menu>
